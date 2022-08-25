@@ -11,6 +11,7 @@
 		FC1D30392890835F003214F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D30382890835F003214F9 /* ViewController.swift */; };
 		FC1D303E2890835F003214F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1D303D2890835F003214F9 /* Assets.xcassets */; };
 		FC1D30412890835F003214F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1D303F2890835F003214F9 /* LaunchScreen.storyboard */; };
+		FC807A0B28B810F600F29626 /* GenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC807A0A28B810F600F29626 /* GenderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FC1D303D2890835F003214F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1D30402890835F003214F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1D30422890835F003214F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC807A0A28B810F600F29626 /* GenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				FC1D30382890835F003214F9 /* ViewController.swift */,
+				FC807A0A28B810F600F29626 /* GenderButton.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				FC1D30392890835F003214F9 /* ViewController.swift in Sources */,
 				FC1D30352890835F003214F9 /* AppDelegate.swift in Sources */,
+				FC807A0B28B810F600F29626 /* GenderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
