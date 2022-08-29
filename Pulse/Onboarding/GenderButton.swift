@@ -14,10 +14,21 @@ final class GenderButton: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        addViews()
+        layoutViews()
+        configure()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func setTitle(title: String) {
+        self.title.text = title
+    }
+    
+    func setEmoji(emoji: String) {
+        self.emoji.text = emoji
     }
 }
 
@@ -38,6 +49,11 @@ private extension GenderButton {
     }
     
     func configure() {
+        backgroundColor = .systemGray5
+        layer.cornerRadius = 18
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.systemGray.cgColor
+        
         title.translatesAutoresizingMaskIntoConstraints = false
         title.textColor = Resources.Colors.blackText
         title.textAlignment = .center
