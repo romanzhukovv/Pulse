@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import UIKit
+
+enum Resources {
+    enum Colors {
+        static let blackText = UIColor.black
+    }
+}
