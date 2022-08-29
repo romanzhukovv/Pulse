@@ -53,6 +53,7 @@ private extension GenderButton {
         layer.cornerRadius = 18
         layer.borderWidth = 1
         layer.borderColor = UIColor.systemGray.cgColor
+        makeSystem(self)
         
         title.translatesAutoresizingMaskIntoConstraints = false
         title.textColor = Resources.Colors.blackText
