@@ -13,6 +13,7 @@
 		FC1D30412890835F003214F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1D303F2890835F003214F9 /* LaunchScreen.storyboard */; };
 		FC5097AF28BD541E00B13A2E /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5097AE28BD541E00B13A2E /* Resources.swift */; };
 		FC807A0B28B810F600F29626 /* GenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC807A0A28B810F600F29626 /* GenderButton.swift */; };
+		FCD6CB2528BEA93D00EFECD4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD6CB2428BEA93D00EFECD4 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC1D30422890835F003214F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC5097AE28BD541E00B13A2E /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		FC807A0A28B810F600F29626 /* GenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderButton.swift; sourceTree = "<group>"; };
+		FCD6CB2428BEA93D00EFECD4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FC1D30332890835F003214F9 /* Pulse */ = {
 			isa = PBXGroup;
 			children = (
+				FCD6CB2328BEA91C00EFECD4 /* Extensions */,
 				FC1D304A289084EE003214F9 /* SupportingFiles */,
 				FC1D3049289084D5003214F9 /* Onboarding */,
 				FC1D3048289084C6003214F9 /* Resources */,
@@ -89,6 +92,14 @@
 				FC1D30422890835F003214F9 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FCD6CB2328BEA91C00EFECD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCD6CB2428BEA93D00EFECD4 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				FC1D30392890835F003214F9 /* ViewController.swift in Sources */,
 				FC5097AF28BD541E00B13A2E /* Resources.swift in Sources */,
 				FC1D30352890835F003214F9 /* AppDelegate.swift in Sources */,
+				FCD6CB2528BEA93D00EFECD4 /* UIView+Extension.swift in Sources */,
 				FC807A0B28B810F600F29626 /* GenderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
