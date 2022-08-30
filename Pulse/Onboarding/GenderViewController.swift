@@ -41,6 +41,10 @@ extension GenderViewController {
             femaleButton.heightAnchor.constraint(equalToConstant: 68),
             femaleButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             
+            nonBinaryButton.topAnchor.constraint(equalTo: femaleButton.bottomAnchor, constant: 12),
+            nonBinaryButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            nonBinaryButton.heightAnchor.constraint(equalToConstant: 68),
+            nonBinaryButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16)
         ])
     }
     
@@ -56,6 +60,11 @@ extension GenderViewController {
         femaleButton.setTitle(title: "Female")
         femaleButton.setEmoji(emoji: "😁")
         femaleButton.addTarget(self, action: #selector(genderButtonAction), for: .touchUpInside)
+        
+        nonBinaryButton.translatesAutoresizingMaskIntoConstraints = false
+        nonBinaryButton.setTitle(title: "Non-Binary")
+        nonBinaryButton.setEmoji(emoji: "😍")
+        nonBinaryButton.addTarget(self, action: #selector(genderButtonAction), for: .touchUpInside)
     }
 }
 
