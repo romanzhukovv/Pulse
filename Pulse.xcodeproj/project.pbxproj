@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		FC1D30352890835F003214F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D30342890835F003214F9 /* AppDelegate.swift */; };
-		FC1D30392890835F003214F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D30382890835F003214F9 /* ViewController.swift */; };
+		FC1D30392890835F003214F9 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D30382890835F003214F9 /* GenderViewController.swift */; };
 		FC1D303E2890835F003214F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1D303D2890835F003214F9 /* Assets.xcassets */; };
 		FC1D30412890835F003214F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1D303F2890835F003214F9 /* LaunchScreen.storyboard */; };
 		FC5097AF28BD541E00B13A2E /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5097AE28BD541E00B13A2E /* Resources.swift */; };
 		FC807A0B28B810F600F29626 /* GenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC807A0A28B810F600F29626 /* GenderButton.swift */; };
 		FCD6CB2528BEA93D00EFECD4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD6CB2428BEA93D00EFECD4 /* UIView+Extension.swift */; };
+		FCD6CB2828BEAAAE00EFECD4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD6CB2728BEAAAE00EFECD4 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC1D30312890835F003214F9 /* Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1D30342890835F003214F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC1D30382890835F003214F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC1D30382890835F003214F9 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
 		FC1D303D2890835F003214F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1D30402890835F003214F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1D30422890835F003214F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC5097AE28BD541E00B13A2E /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		FC807A0A28B810F600F29626 /* GenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderButton.swift; sourceTree = "<group>"; };
 		FCD6CB2428BEA93D00EFECD4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FCD6CB2728BEAAAE00EFECD4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		FC1D30332890835F003214F9 /* Pulse */ = {
 			isa = PBXGroup;
 			children = (
-				FCD6CB2328BEA91C00EFECD4 /* Extensions */,
 				FC1D304A289084EE003214F9 /* SupportingFiles */,
+				FCD6CB2628BEAA8A00EFECD4 /* Base */,
 				FC1D3049289084D5003214F9 /* Onboarding */,
+				FCD6CB2328BEA91C00EFECD4 /* Extensions */,
 				FC1D3048289084C6003214F9 /* Resources */,
 				FC1D303F2890835F003214F9 /* LaunchScreen.storyboard */,
 			);
@@ -79,7 +82,7 @@
 		FC1D3049289084D5003214F9 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				FC1D30382890835F003214F9 /* ViewController.swift */,
+				FC1D30382890835F003214F9 /* GenderViewController.swift */,
 				FC807A0A28B810F600F29626 /* GenderButton.swift */,
 			);
 			path = Onboarding;
@@ -100,6 +103,14 @@
 				FCD6CB2428BEA93D00EFECD4 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FCD6CB2628BEAA8A00EFECD4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FCD6CB2728BEAAAE00EFECD4 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,11 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1D30392890835F003214F9 /* ViewController.swift in Sources */,
+				FC1D30392890835F003214F9 /* GenderViewController.swift in Sources */,
 				FC5097AF28BD541E00B13A2E /* Resources.swift in Sources */,
 				FC1D30352890835F003214F9 /* AppDelegate.swift in Sources */,
 				FCD6CB2528BEA93D00EFECD4 /* UIView+Extension.swift in Sources */,
 				FC807A0B28B810F600F29626 /* GenderButton.swift in Sources */,
+				FCD6CB2828BEAAAE00EFECD4 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
